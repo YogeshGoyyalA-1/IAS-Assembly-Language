@@ -1,0 +1,54 @@
+1.For swapping two numbers without using temporary variable
+
+1
+7 5
+LOAD M(X) 200 ADD M(X) 201
+STOR M(X) 200
+LOAD M(X) 200 SUB M(X) 201
+STOR M(X) 201
+LOAD M(X) 200 SUB M(X) 201
+STOR M(X) 200
+HALT
+
+2.For adding two numbers
+
+2
+7 5
+LOAD M(X) 200 ADD M(X) 201
+STOR M(X) 200
+HALT
+
+
+3.For subtracting two numbers
+
+3
+7 5
+LOAD M(X) 200 SUB M(X) 201
+STOR M(X) 200
+HALT
+
+
+4.For finding perimeter of rectangle using LSH 2*(a+b)
+
+4
+7 5
+LOAD M(X) 200 ADD M(X) 201
+STOR M(X) 200 LSH 1
+STOR M(X) 200
+HALT
+
+5.FIBBO USING JUMP
+LOAD M(X) 200 ADD M(X) 201
+STOR M(X) 202
+LOAD M(X) 201 STOR M(X) 200
+LOAD M(X) 202 STOR M(X) 201
+JUMP M(X,0:19) 0
+HALT
+
+
+
+
+
+
+
+
