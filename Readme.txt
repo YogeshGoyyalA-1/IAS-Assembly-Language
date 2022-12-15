@@ -1,3 +1,2 @@
 This is an implementation of IAS(Fetch,Decode,Execute).The user puts in assembly language instruction
-and accordingly the instruction is fetched decoded with the help of opcode and memory location and 
-then  data is accessed from memory location operation is done in ALU and we get the result
+and accordingly the instruction is fetched then decoded with the help of opcode and memory location and then  data is accessed from memory location operation is done in ALU and we get the result.
